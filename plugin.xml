@@ -15,6 +15,12 @@
 
     <!-- Android -->
     <platform name="android">
+        <config-file target="config.xml" parent="/*">
+            <feature name="PuS">
+                <param name="android-package" value="de.ipus.timasapp.PuS"/>
+            </feature>
+        </config-file>
+
         <source-file src="src/android/PuS.java" target-dir="src/de/ipus/timasapp" />
     </platform>
 </plugin>
