@@ -16,5 +16,5 @@
     <!-- Android -->
     <platform name="android">
         <source-file src="src/android/PuS.java" target-dir="src/de/ipus/timasapp" />
-    </platform
+    </platform>
 </plugin>
