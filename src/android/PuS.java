@@ -13,7 +13,7 @@ public class PuS extends CordovaPlugin {
     public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
         if (action.equals("setSessionID")) {
             String sessionID = args.getString(0);
-            this.setSessionID(message, callbackContext);
+            this.setSessionID(sessionID, callbackContext);
             return true;
         }
         return false;
